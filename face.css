@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  video, canvas {
+    border: 1px solid black;
+    margin-top: 20px;
+  }
+  
+  #startButton {
+    margin-top: 20px;
+  }

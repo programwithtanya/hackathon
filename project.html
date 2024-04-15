@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research and Development</title>
+<link rel="stylesheet" href="project.css">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+    }
+    .header {
+        background-color: #dfbfbf;
+        color: #fff;
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+   
+    
+    /* .college-name  {
+        width: 100px;
+    } */
+    .college-name img  {
+       width: 80vh;
+    }
+    .college-info {
+        max-width: 80%;
+        margin-right: 16vh;
+    }
+    .college-info h1 {
+        font-size: 35px;
+        margin: 10px 0;
+    }
+    .college-info p {
+        font-size: 20px;
+        color: #fff;
+    }
+</style>
+</head>
+<body>
+    <div class="nav">
+    <div class="header">
+       
+        <div class="college-name">
+            <img src="hbtucentenarylogoNEW-removebg-preview.png" alt="College Name">
+        </div>
+        <div class="college-info">
+            <h1>Research and Development</h1>
+            <p>A premier university fostering innovation and creativity in education, leading the way
+            </div>
+        </div>
+
+            <div  class="table">
+                <h1>Team Management</h1>
+  <input type="text" id="searchInput" placeholder="Search by Team Name">
+  <table id="teamTable">
+    <thead>
+      <tr>
+        <th>Serial Number</th>
+        <th>Team Name</th>
+        <th>Team Members</th>
+        <th>Ongoing Projects</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Table rows will be dynamically added here -->
+    </tbody>
+  </table>
+  <button onclick="addTeam()">Add Team</button>
+    <script src="project.js"></script>
+</body>
+</html>
